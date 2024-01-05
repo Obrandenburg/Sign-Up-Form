@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Sign-up Form</title>
+</head>
+<body>
+  <!--------------------------------Left aligned text with odin img-------------------------------------->
+  <div class="left_aligned">
+    <div class="odin">
+      <img src="/stylings/odin-lined.png">
+      <p>ODIN</p>
+    </div>
+  </div>
+
+  <!-----------------------------------------Top Paragraph----------------------------------------------->
+  <div class="page_body">
+    <div class="intro">
+      <p>
+        This is not a real service! Just a practice document to get 
+        the hang of generating forms with HTML and adding CSS stylings. 
+      </p>
+
+      <p>
+        Sign up below!
+      </p>
+    </div>
+    
+    <!----------------------------------------------Form--------------------------------------------------->
+    <form>
+      <p>Let's do this!</p>
+      <!----First Name Text Field---->
+      <div class="form_element">
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" name="first_name" placeholder="Thor">
+      </div>
+
+        <!----Last Name Text Field---->
+      <div class="form_element">
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Odin">
+      </div>
+
+        <!----Email Field---->
+      <div class="form_element">
+        <label for="user_email">Email</label>
+        <input type="email" id="user_email" name="user_email">
+      </div>
+
+        <!----Phone Field---->
+      <div class="form_element">
+        <label for="user_phone">Phone Number</label>
+        <input type="text" id="user_phone" name="user_phone">
+      </div>
+
+        <!----Password---->
+      <div class="form_element">
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password" class="error">
+      </div>
+
+        <!----Password Confirmation---->
+      <div class="form_element">
+        <label for="password_confirmation">Confirm Password</label>
+        <input type="text" id="password_confirmation" name="password_confirmation" class="error">
+      </div>
+
+      <button type="submit">Create Account</button>
+
+    </form>
+  </div>
+
+  <!------------------------------------------Login Footer----------------------------------------------->
+</body>
+</html>
